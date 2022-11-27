@@ -3,8 +3,8 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Research"
+    url: /research/
+
   - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /files/RemySeassau_CV.pdf

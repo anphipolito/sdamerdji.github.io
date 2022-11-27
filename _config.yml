@@ -11,7 +11,7 @@ title                    : "Remy Seassau"
 title_separator          : "-"
 name                     : &name "Remy Seassau"
 description              : &description "personal description"
-url                      : https://remyjck.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://remyjck.github.io/about # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "remyjck/remyjck.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Remy Seassau"
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   bio              : "Computer Science student and PhD applicant"
   location         : "Oxford, United-Kingdom"
   employer         :
   pubmed           :
   googlescholar    :
-  email            : remy.seassau [at] cs.ox.ac.uk
+  email            : remy.seassau@cs.ox.ac.uk
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
@@ -213,6 +213,15 @@ defaults:
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _research
+  - scope:
+      path: ""
+      type: research
     values:
       layout: single
       author_profile: true
