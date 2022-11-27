@@ -1,0 +1,14 @@
+---
+;ayout: archive
+permalink: /projects/
+title: "Projects"
+author_profile: false
+---
+
+{% include base_path %}
+
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+  <hr syle="border-top: 8px solid #bbb;">
+{% endfor %}
