@@ -1,6 +1,6 @@
 ---
 title: "Formalizing Ideals in Commutative Algebra"
-excerpt: ""
+excerpt: "Supervised by Pierre-Yves Strub at the Laboratoire d'Informatique de l'Ecole Polytechnique (LIX)"
 collection: research
 ---
 

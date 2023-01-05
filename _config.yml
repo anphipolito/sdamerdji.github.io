@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Remy Seassau"
   avatar           : "profile.jpeg"
-  bio              : "Computer Science student and PhD applicant"
+  bio              : "Computer Science Master's Student and PhD applicant"
   location         : "Oxford, United-Kingdom"
   employer         :
   pubmed           :
@@ -217,7 +217,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: false
   # _research
   - scope:
       path: ""

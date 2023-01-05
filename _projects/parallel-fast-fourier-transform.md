@@ -1,6 +1,6 @@
 ---
-title: "Parrallel FFT"
-excerpt: ""
+title: "Parallel FFT"
+excerpt: "Final project for my Concurrent and Distributed Programming course."
 collection: projects
 ---
 

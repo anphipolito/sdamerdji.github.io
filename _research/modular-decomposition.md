@@ -1,6 +1,6 @@
 ---
 title: "A Tool for Interactive Modular Decomposition"
-excerpt: ""
+excerpt: "Supervised by Lutz Straßburger at the Partout team, INRIA"
 collection: research
 ---
 

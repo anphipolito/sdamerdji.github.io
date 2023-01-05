@@ -1,6 +1,6 @@
 ---
 title: "Automatic Computation of Barrier Certificates"
-excerpt: ""
+excerpt: "This literature review was done in the context of a taste of research course. It presents the use of barrier certificates for verifying dynamical systems and their computation."
 collection: projects
 ---
 

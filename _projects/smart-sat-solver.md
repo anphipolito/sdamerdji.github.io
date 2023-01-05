@@ -1,6 +1,6 @@
 ---
 title: "A Smart SAT Solver"
-excerpt: ""
+excerpt: "We implemented an optimized SAT solver in Haskell as a final project for our Functional Programming course."
 collection: projects
 ---
 

@@ -6,5 +6,8 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Posts"
+    url: /blog/
+
   - title: "CV"
     url: /files/RemySeassau_CV.pdf
