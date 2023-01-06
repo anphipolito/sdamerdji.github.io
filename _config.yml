@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Remy Seassau"
-  avatar           : "profile.jpeg"
+  avatar           : "bio-photo.jpg"
   bio              : "Computer Science Master's Student and PhD applicant"
   location         : "Oxford, United-Kingdom"
   employer         :
@@ -103,13 +103,14 @@ author:
   impactstory      :
   lastfm           :
   linkedin         : "remy-seassau"
+  mastodon         : "types.pl/@remyjck"
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "remyjck"
+  twitter          : "@remyjck"
   vine             :
   weibo            :
   xing             :
