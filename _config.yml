@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Remy Seassau"
 title_separator          : "-"
 name                     : &name "Remy Seassau"
-description              : &description "personal description"
+description              : &description "Remy Seassau's personal website"
 url                      : https://remyjck.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "remyjck/remyjck.github.io"
@@ -217,7 +217,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: false
   # _research
   - scope:
@@ -226,8 +226,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comments: false
 
 # Sass/SCSS
 sass:

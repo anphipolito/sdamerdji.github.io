@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "About me"
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,10 +15,10 @@ I graduated with a bachelors degree in August 2022 from [Ecole Polytechnique](ht
 I've recently had the opportunity to intern at the [Trustworthy Systems](https://trustworthy.systems/) group at the University of New South Wales (formerly Data 61). I worked on the [Pancake](https://trustworthy.systems/projects/TS/drivers/pancake) language, helping boostrap a formally verified compiler for it.
 
 
-## On this site
+On this site
+======
 
 This site is where I keep personal commentaries and summaries of my past [research](/research/).
 
 I've also started making post(s) about things I enjoy. Check out [this one](/posts/algorithms-visualization-manim/) about visualizing algorithms with Manim.
-
 
