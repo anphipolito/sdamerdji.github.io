@@ -4,11 +4,11 @@ excerpt: "Supervised by Pierre-Yves Strub at the Laboratoire d'Informatique de l
 collection: research
 ---
 
-This project is quite nostalgic to me as it was my first research internship and my introduction to the world of formalization. I undertook this extracurricular internship following a "Logic and Proofs" taught by Prof. Pierre-Yves Strub during my second year of undergraduate. Before starting, I would also like to acknowledge Nazila Sharifi Amina, a fellow undergraduate who worked on this project with me.
+I am quite nostalgic about this project as it was my first research experience and my introduction to the world of formalization. I undertook this extracurricular internship following a "Logic and Proofs" taught by Prof. Pierre-Yves Strub during my second year of undergraduate. Before starting, I would also like to acknowledge Nazila Sharifi Amina, a fellow undergraduate who worked on this project with me.
 
 ## Ideals
 
-The only mathematical prerequiste for understanding this project is to know what a [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)#Definition) is. Once we have this in mind, we can start by defining ideals:
+The only mathematical prerequiste for understanding this project is to know what a [ring](https://en.wikipedia.org/wiki/Ring_(mathematics)#Definition) is. Once we have this in mind, we start by defining ideals:
 
 >Let $(R, +, \cdot)$ be a ring. $I$ is an ideal of this ring if
 >
@@ -16,7 +16,7 @@ The only mathematical prerequiste for understanding this project is to know what
 >* $\forall x, y \in I$, $x + y \in I$
 >* $\forall r \in R, x \in I, rx \in I$
 
-We can now go about formalizing this definition in Coq. We use predicates as representations of sets: the predicate holds true for an element if and only if that element is in our set (think of it as a characteristic function). A subset of our ring is thus of type `pred R`, we can define an ideal as a predicate on which the following conditions hold:
+We can now go about formalizing this definition in Coq. We use predicates as representations of sets: the predicate holds true for an element if and only if that element is in our set (it may help to think of it as a characteristic function). A subset of our ring $R$ is thus of type `pred R`, we can define an ideal as a predicate on which the following conditions hold:
 ```
 Definition is_ideal (p : pred R) :=
   [/\ p 0
@@ -32,11 +32,11 @@ Let $\mathfrak{J}$ be the set of all ideals of a ring $R$.
 
 As it turns out, [ideals are useful for cryptography](https://en.wikipedia.org/wiki/Ideal_lattice) and, in the context of a cryptographic verification project, we are interested in showing that the structure $(\mathfrak{J}, +, \cdot)$ is a semi-ring.
 
-Here, the $+$ and $\cdot$ operators are not the usual addition and multiplication, but rather operations on sets. Lets take a look at the definition and formalization of multiplication for ideals.
+Here, the $+$ and $\cdot$ operators are not the usual addition and multiplication, but rather operations on the ideals themselves (which are sets).
 
 ## Formalizing Multiplication for Ideals
 
-We will demonstrate the formalization process by examining the following definition and an accompanying lemma:
+We will demonstrate the formalization process by examining the following definition of multiplication of ideals and an accompanying lemma:
 
 >Let $\mathfrak{a}$ and $\mathfrak{b}$ be two ideals of $R$. Then, the product of $\mathfrak{a}$ and $\mathfrak{b}$, written $\mathfrak{a} \cdot \mathfrak{b}$ or $\mathfrak{a} \mathfrak{b}$, is defined as:
 >
@@ -59,7 +59,7 @@ Definition is_idealM_r (p q : pred R) : pred R :=
       x = \sum_(y <- s) y.1 * y.2).
 ```
 
-Informally, `is_idealM_r p q` is a predicate over elements $x \in R$ which is true if there exists $$(a_i)_{i \leq k} \in p$$ and $ (b_i)_{i \leq k} \in q$ such that $$x = \sum_{i=0}^k a_i \cdot b_i$$.
+Informally, `is_idealM_r p q` is a predicate over elements $x \in R$ which is true iff there exists $$(a_i)_{i \leq k} \in p$$ and $ (b_i)_{i \leq k} \in q$ such that $$x = \sum_{i=0}^k a_i \cdot b_i$$.
 
 One of the conditions for $(\mathfrak{J}, +, \cdot)$ to be a semi-ring is that ideals need to be stable under mulitplication. We thus want to show that if $\mathfrak{a}$ and $\mathfrak{b}$ are ideals, then $\mathfrak{a}\mathfrak{b}$ is an ideal.
 
@@ -108,6 +108,6 @@ Lemma decideP P : reflect P (decide P).
 Proof. by rewrite /decide; case: Prop_bool => /=; constructor. Qed.
 ```
 
-We make the choice of accepting classical logic, rejecting the benefits of constructivism as we didn't particularly need them for this project. This project was my first introduction to the constructive versus classical debate and taught me the value of understanding these nuances when working on formalization.
+Which includes the law of excluded middle ($P \lor \lnot P$) in the form of `{P} + {~P}`. We chose to reject the benefits of constructivism as we didn't particularly need them for this project. This was actually my first introduction to the constructive versus classical debate and taught me the value of understanding these nuances when working on formalization.
 
 
