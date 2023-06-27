@@ -4,7 +4,9 @@ excerpt: "Supervised by Pierre-Yves Strub at the Laboratoire d'Informatique de l
 collection: research
 ---
 
-I am quite nostalgic about this project as it was my first research experience and my introduction to the world of formalization. I undertook this extracurricular internship following a "Logic and Proofs" taught by Prof. Pierre-Yves Strub during my second year of undergraduate. Before starting, I would also like to acknowledge Nazila Sharifi Amina, a fellow undergraduate who worked on this project with me.
+This project was my first research experience and my introduction to the world of formalization. I undertook an extracurricular internship following a "Logic and Proofs" taught by Prof. Pierre-Yves Strub during my second year of undergraduate.
+
+The following is a brief example of the sort of work that was done.
 
 ## Ideals
 
@@ -30,7 +32,7 @@ Notice that because we are characterizing over $R$, the `_ + _` and `_ * _` oper
 
 Let $\mathfrak{J}$ be the set of all ideals of a ring $R$.
 
-As it turns out, [ideals are useful for cryptography](https://en.wikipedia.org/wiki/Ideal_lattice) and, in the context of a cryptographic verification project, we are interested in showing that the structure $(\mathfrak{J}, +, \cdot)$ is a semi-ring.
+Now, [ideals are used for cryptography](https://en.wikipedia.org/wiki/Ideal_lattice) and, in the context of a cryptographic verification project, we are interested in showing that the structure $(\mathfrak{J}, +, \cdot)$ is a semi-ring.
 
 Here, the $+$ and $\cdot$ operators are not the usual addition and multiplication, but rather operations on the ideals themselves (which are sets).
 
@@ -108,6 +110,6 @@ Lemma decideP P : reflect P (decide P).
 Proof. by rewrite /decide; case: Prop_bool => /=; constructor. Qed.
 ```
 
-Which includes the law of excluded middle ($P \lor \lnot P$) in the form of `{P} + {~P}`. We chose to reject the benefits of constructivism as we didn't particularly need them for this project. This was actually my first introduction to the constructive versus classical debate and taught me the value of understanding these nuances when working on formalization.
+Which includes an assumption of the law of excluded middle ($P \lor \lnot P$) in the form of `{P} + {~P}`. We allowed ourselves to posit the axiom because we don't need the benefits offered by constructivism, such as code extraction, for this project.
 
 
