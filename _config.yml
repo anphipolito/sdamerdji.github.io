@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Remy Seassau"
   avatar           : "bio-photo.jpg"
-  bio              : "Computer Science Master's Student"
-  location         : "Oxford, United-Kingdom"
+  bio              : "Computer Science PhD Candidate"
+  location         :
   employer         :
   pubmed           :
-  googlescholar    :
-  email            : remy.seassau@cs.ox.ac.uk
+  googlescholar    : "https://scholar.google.com/citations?user=Qg94i1YAAAAJ&hl=en"
+  email            : "remy.seassau@inria.fr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,8 +103,8 @@ author:
   impactstory      :
   lastfm           :
   linkedin         : "remy-seassau"
-  mastodon         : "types.pl/@remyjck"
-  orcid            :
+  mastodon         :
+  orcid            : "https://orcid.org/0009-0008-6226-1413"
   pinterest        :
   soundcloud       :
   stackoverflow    :
