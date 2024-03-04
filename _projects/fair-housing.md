@@ -1,6 +1,6 @@
 ---
-title: "AB Experimentation"
-excerpt: "Designed, ran, and analyzed a multi-factor, completely randomized block experiment (n=48) with 83% power. Study found that bias against women in leadership is resilient to reading critiques of this bias."
+title: "Fair Housing"
+excerpt: "Scored 32 cities on fair housing metrics. Data analysis earned press coverage due to data storytelling."
 collection: projects
 ---
 

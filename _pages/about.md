@@ -16,10 +16,10 @@ Proven statistician with 3+ years experience as a technical lead in data science
 
 <h3>University of Oxford</h3>  
 : **Statistics MS**<span class="tab"></span><span class="notbold">*Class of 2023*</span>   
-    *Dissertation earned a distinction*
+    * *Dissertation earned a distinction*
 
 <h3>University of California</h3>
-:   **Statistics BA**, **Philsophy BA** <span class="tab"></span><span class="notbold">*Class of 2019*</span>   
+:   **Statistics BA**, **Philosophy BA** <span class="tab"></span><span class="notbold">*Class of 2019*</span>   
     *GPA: 3.89*
 
 
@@ -45,7 +45,7 @@ h3  {
 --------
 ## Work Experience
 
-<h3>Synopsis</h3> <span class="notbold">(Mountain View, CA) </span>
+<h3>Synopsys</h3> <span class="notbold">(Mountain View, CA) </span>
 <span class="tab">
 
 <h4 align='right'>Research and Development Engineer <span class="tab"></span><span class="notbold">*Jan 2020 - July 2022*</span></h4>
@@ -81,8 +81,8 @@ human expert’s best try across all metrics at Samsung, yielding new revenue.
 
 --------
 ## Contact
-**Email**: remy.seassau@inria.fr
-
+**Email**: sdamerdji1@gmail.com  
+**Phone**: 650-495-9357
 
 
 </html>
