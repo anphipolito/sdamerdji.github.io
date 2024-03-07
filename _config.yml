@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Remy Seassau"
+title                    : "Salim Damerdji"
 title_separator          : "-"
-name                     : &name "Remy Seassau"
-description              : &description "Remy Seassau's personal website"
-url                      : https://remyjck.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Salim Damerdji"
+description              : &description "Salim Damerdji's personal website"
+url                      : https://sdamerdji.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "remyjck/remyjck.github.io"
+repository               : "anphipolito/samerdji.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Remy Seassau"
+  name             : "Salim Damerdji"
   avatar           : "bio-photo.jpg"
-  bio              : "Computer Science PhD Candidate"
+  bio              : "Statistician"
   location         :
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=Qg94i1YAAAAJ&hl=en"
-  email            : "remy.seassau@inria.fr"
+  email            : "sdamerdji1@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,21 +96,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "remyjck"
+  github           : "sdamerdji"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      :
   lastfm           :
-  linkedin         : "remy-seassau"
+  linkedin         :
   mastodon         :
-  orcid            : "https://orcid.org/0009-0008-6226-1413"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "@remyjck"
+  twitter          :
   vine             :
   weibo            :
   xing             :
