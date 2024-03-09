@@ -1,0 +1,15 @@
+---
+layout: archive
+permalink: /papers/
+title: "papers"
+author_profile: false
+---
+
+{% include base_path %}
+
+Short insights into my previous research projects.
+
+{% for post in site.papers %}
+  {% include archive-single.html %}
+  <hr syle="border-top: 8px solid #bbb;">
+{% endfor %}
