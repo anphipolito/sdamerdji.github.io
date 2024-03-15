@@ -1,0 +1,7 @@
+/var/folders/5q/4yrrbz293953sqpsf82n6d3r0000gn/T/ruby-build.20240313213254.46830.log-: No such file or directory
+--prefix=/Users/cheapp-pc01-04/.rbenv/versions/2.7.1: No such file or directory
+--enable-shared: No such file or directory
+--with-readline-dir=/opt/homebrew/opt/readline: No such file or directory
+--with-libyaml-dir=/opt/homebrew/opt/libyaml: No such file or directory
+--with-ext=openssl,psych,+: No such file or directory
+--with-openssl-dir=/opt/homebrew/opt/openssl@1.1: No such file or directory

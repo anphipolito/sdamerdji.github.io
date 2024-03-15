@@ -3,7 +3,7 @@ title: "Are sites selected for a site inventory more likely to be developed into
 collection: publications
 permalink: /publication/Are-sites-selected-for-a-site-inventory-more-likely-to-be-developed-into-housing-all-else-equal
 excerpt: 'NA'
-date: "To be published"
+date: 2024-01-01
 venue: 'NA'
 paperurl: 'NA'
 citation: 'NA'

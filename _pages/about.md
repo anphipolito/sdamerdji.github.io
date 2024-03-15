@@ -7,20 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+
+
 <html>
-
-Proven statistician with 3+ years experience as a technical lead in data science and AB experimentation.
-
--------
-## Education
-
-<h3>University of Oxford</h3>  
-: **Statistics MS**<span class="tab"></span><span class="notbold">*Class of 2023*</span>   
-    * *Dissertation earned a distinction*
-
-<h3>University of California</h3>
-:   **Statistics BA**, **Philosophy BA** <span class="tab"></span><span class="notbold">*Class of 2019*</span>   
-    *GPA: 3.89*
 
 
 <head>
@@ -41,6 +31,21 @@ h3  {
 </style>
 </head>
 
+<p>
+
+Proven statistician with 3+ years experience as a technical lead in data science and AB experimentation.
+</p>
+
+
+<h2>Education</h2>
+
+<h3>University of Oxford</h3>  
+: **Statistics MS**<span class="tab"></span><span class="notbold">*Class of 2023*</span>   
+    * *Dissertation earned a distinction*
+
+<h3>University of California</h3>
+:   **Statistics BA**, **Philosophy BA** <span class="tab"></span><span class="notbold">*Class of 2019*</span>   
+    *GPA: 3.89*
 
 --------
 ## Work Experience
