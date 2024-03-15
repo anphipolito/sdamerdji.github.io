@@ -32,7 +32,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
+  branch                 : "gh-_pages" # "master", "gh-_pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Salim Damerdji"
-  avatar           : "bio-photo.jpg"
-  bio              : "Statistician"
+  avatar           : "bio-photo.png"
+  bio              : "Proven statistician with 3+ years experience as a technical lead in data science and AB experimentation."
   location         :
   employer         :
   pubmed           :
@@ -189,7 +189,7 @@ defaults:
   # _pages
   - scope:
       path: ""
-      type: pages
+      type: _pages
     values:
       layout: single
       author_profile: true
@@ -233,6 +233,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-watch
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -244,8 +245,8 @@ whitelist:
 
 # Archives
 #  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  - GitHub Pages compatible archive _pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive _pages ~> type: jekyll-archives
 #  Path (examples)
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
