@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem "jekyll-assets", "~> 2.3.2"
+  gem 'jekyll-redirect-from'
 end
 
 gem "webrick", "~> 1.8"
