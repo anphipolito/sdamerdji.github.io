@@ -49,7 +49,6 @@ human expert’s best try across all metrics at Samsung, yielding new revenue.
 
 #### Engineering Intern *(June 2013 - Aug 2013)*
 * **SQL Querying**: Automated reporting of user logs on Vuclip, one of the 30 most-visited mobile sites in 2010.
-</span>
 
 
 
