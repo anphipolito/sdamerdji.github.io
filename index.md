@@ -41,7 +41,7 @@ human expert’s best try across all metrics at Samsung, yielding new revenue.
 * **Visual Analytics**: Presented crisp visualizations to tell the story of critical data to decision-makers.
 
 #### Engineering Intern *(May 2018 - Aug 2018)*
-* Segmentation: Clustered large datasets of DRCs 10x faster than minibatch k-means.
+* **Segmentation**: Clustered large datasets of DRCs 10x faster than minibatch k-means.
 
 
   
